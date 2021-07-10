@@ -16,4 +16,4 @@ for ((i=0; i < ${#files[@]}; i++)) {
   sed -i "" -e "s/${old}/${new}/g" ${files[i]}
 }
 
-mv src/${old} src/${new}
+mv ${old} ${new}

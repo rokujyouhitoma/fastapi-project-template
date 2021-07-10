@@ -39,5 +39,5 @@ make
 ## Run the fast api application
 
 ```
-PYTHONPATH=src uvicorn sample.__main__:app --reload
+uvicorn sample.app:app --reload
 ```
