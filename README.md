@@ -1,4 +1,4 @@
-# Python Project Template
+# FastAPI Project Template
 
 ## What is setupped?
 
