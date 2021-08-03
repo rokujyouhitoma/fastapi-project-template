@@ -40,4 +40,4 @@ jobs:
         pytest
     - name: Static type checker with mypy
       run: |
-        mypy sample/
+        mypy --strict sample/
